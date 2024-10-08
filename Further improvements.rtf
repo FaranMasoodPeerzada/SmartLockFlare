@@ -1,0 +1,98 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 ArialMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22480\viewh16820\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf0 1/ Definition of single / double doors (description goes in email confirmation) 
+\f1\b0 \
+\
+
+\f0\b Single Doors:
+\f1\b0 \
+\
+    1414843560:	"EC:75:5D:81:64:FF", # Fidiou 8pax\
+    1415117567:	"B1:48:81:51:79:B5", # Fidiou 6pax L\
+    1415117471:	"FA:37:8F:4B:3C:81", # Fidiou 6pax R\
+    1414925968:	"D7:2C:71:36:9C:C5", # Fidiou 3pax\
+ #  1415108987:	"0D:A9:BA:99:28:F6", # Test1\
+ #  1415111440:   "16:D7:E6:DD:23:34"  # Test2\
+\
+\
+\
+
+\f0\b Double Doors (Ie: One main door before accessing the secondary door):
+\f1\b0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f2 \cf0 Case #1\
+If booking is for one of the following:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf0      1414944050:	"54:6C:1D:21:CE:CE", # (Email Description of space: Podcast Room)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f2 \cf0     
+\f1  1414957789:  "D6:DB:F1:2E:24:54", # (Email Description of space: Sleeping Pod)\
+\
+Also Issue a Passcode for:\
+
+\f2      FD:64:42:39:E5:54:  # 
+\f1 (Email Description of space: Wellness Entrance) 15 minute earlier than start date/time of booking\
+\
+\
+
+\f2 Case #2
+\f1 \
+
+\f2 If booking is for one of the following:
+\f1 \
+    1415083298:	"67:6C:FF:02:84:82", # Patmou Podcast\
+    1415083300:	"92:E8:46:4D:50:12", # Patmou BreakRoom\
+    1415079490:	"F9:73:37:A9:E1:E5", # Patmou MR3\
+    1415109087:	"96:3A:98:2D:24:18", # Patmou MR4\
+    1415109088:	"A0:FD:E4:9F:9A:14", # Patmou MR5\
+    1415083396:	"FE:74:91:79:FB:F2", # Patmou 12pax\
+\
+Also Issue a Passcode for:\
+
+\f2 \'93EE:4F:8C:5A:BE:97\'94#  
+\f1 (Email Description of space: Lower GF Entrance)\
+
+\f2 \'93CA:7E:D6:A6:51:1A \'93
+\f1 (Email Description of space: Parking In) 15 minute earlier than start date/time of booking
+\f2 \
+\'93D6:2B:DC:3E:93:DF\'94 
+\f1 (Email Description of space: Parking Out) 30 minute after end date/time of booking\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf0 For testing purposes, please use:
+\f1\b0 \
+    1415108987:	"0D:A9:BA:99:28:F6", # Main Door\
+    1415111440:   "16:D7:E6:DD:23:34"  # Secondary Door\
+\
+
+\f0\b 2/ Cancelation
+\f1\b0 \
+Make sure that in case of cancelation of a booking, all concerned passcodes are also canceled\
+\
+\
+
+\f0\b 3/ Confirm that Helsinki TZ is appropriate for the platform which runs on EET, and will correctly auto-update twice a year (Daylight savings)
+\f1\b0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

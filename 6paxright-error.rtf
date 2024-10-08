@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 2024-09-11T16:19:59.919942+00:00 heroku[router]: at=info method=POST path="/booking-webhook" host=tthotel-nx-integration-live-b943d323ed38.herokuapp.com request_id=4734f0cd-4f5c-48ae-a0f0-7c0aa3114e8d fwd="52.18.33.224" dyno=web.1 connect=0ms service=5ms status=200 bytes=175 protocol=https\
+2024-09-11T16:19:59.919943+00:00 app[web.1]: INFO:main:handle_request data: \{'ResourceId': 1415117471, 'ResourceName': '6 Pax Meeting Room Right', 'ResourceAllocation': 6, 'ResourceHideInCalendar': False, 'ResourceNoReturnPolicy': None, 'ResourceNoReturnPolicyAllResources': None, 'ResourceNoReturnPolicyAllUsers': None, 'ResourceResourceTypeId': 1414873560, 'ResourceResourceTypeName': 'Fidiou Meeting Room 6 Pax', 'FloorPlanDeskId': 1415084640, 'FloorPlanDeskName': 'MR-6PAX 2', 'CoworkerId': 1415113428, 'CoworkerCoworkerType': 'Individual', 'CoworkerFullName': 'Eric BW no plan', 'CoworkerBillingName': 'Eric', 'CoworkerCompanyName': None, 'CoworkerTeamNames': None, 'ExtraServiceId': None, 'ExtraServiceName': None, 'FromTime': '2024-09-18T09:30:00Z', 'ToTime': '2024-09-18T11:30:00Z', 'Notes': None, 'InternalNotes': None, 'ChargeNow': False, 'InvoiceNow': False, 'InvoiceThisCoworker': False, 'DoNotUseBookingCredit': False, 'PurchaseOrder': None, 'DiscountCode': None, 'Tentative': False, 'Online': True, 'TeamsAtTheTimeOfBooking': None, 'TariffAtTheTimeOfBooking': 'Team Member', 'RepeatSeriesUniqueId': None, 'RepeatBooking': False, 'Repeats': 0, 'WhichBookingsToUpdate': 0, 'RepeatEvery': None, 'RepeatUntil': None, 'RepeatOnMondays': False, 'RepeatOnTuesdays': False, 'RepeatOnWednesdays': False, 'RepeatOnThursdays': False, 'RepeatOnFridays': False, 'RepeatOnSaturdays': False, 'RepeatOnSundays': False, 'OverridePrice': None, 'Invoiced': False, 'InvoiceDate': None, 'BookingNumber': 3316, 'CoworkerInvoiceId': None, 'CoworkerInvoiceNumber': None, 'CoworkerInvoicePaid': False, 'CoworkerInvoiceVoid': False, 'CoworkerInvoiceCreditNote': False, 'CoworkerExtraServiceIds': None, 'CoworkerExtraServicePrice': None, 'CoworkerExtraServiceCurrencyCode': None, 'CoworkerExtraServiceChargePeriod': None, 'CoworkerExtraServiceTotalUses': None, 'IncludeZoomInvite': False, 'CheckedInAt': None, 'CancelIfNotPaid': False, 'CancelIfNotCheckedIn': False, 'MaxOccupancy': None, 'LastMinutePriceAdjustment': None, 'DynamicPriceAdjustment': None, 'PriceFactorLastMinute': None, 'PriceFactorDemand': None, 'MinutesToStart': 9670, 'OverrideResourceLimits': False, 'DisableConfirmation': False, 'SkipGoogleCalendarUpdate': False, 'EstimatedCost': 36.0, 'EstimatedCostWithProducts': None, 'EstimagedCost': 36.0, 'EstimatedProductCost': None, 'ChargedExtraServices': None, 'BookingProducts': [], 'BookingVisitors': [], 'EstimatedExtraService': None, 'Invoice': None, 'AvailableCredit': 0.0, 'IsEvent': False, 'IsTour': False, 'DiscountAmount': None, 'Id': 1433656920, 'UpdatedOn': '2024-09-11T16:19:43.9267482Z', 'CreatedOn': '2024-09-11T16:19:43.5510507Z', 'UniqueId': '78d47f36-c141-4676-a98d-ce245cd9f6db', 'UpdatedBy': 'egoz@bluewin.ch', 'IsNew': False, 'SystemId': None, 'ToStringText': '6 Pax Meeting Room Right (#3316)', 'LocalizationDetails': None, 'CustomFields': None\}\
+2024-09-11T16:19:59.919967+00:00 app[web.1]: WARNING:main:No lock id\
+2024-09-11T16:19:59.919987+00:00 app[web.1]: 10.1.28.69 - - [11/Sep/2024:16:19:59 +0000] "POST /booking-webhook HTTP/1.1" 200 30 "-" "-"\
+2024-09-11T16:20:43.810607+00:00 heroku[router]: at=info method=POST path="/booking-cancelled" host=tthotel-nx-integration-live-b943d323ed38.herokuapp.com request_id=3d4a1ecd-d6c7-4462-9747-e0a4b142cc58 fwd="52.18.33.224" dyno=web.1 connect=0ms service=5ms status=200 bytes=175 protocol=https\
+2024-09-11T16:20:43.813362+00:00 app[web.1]: INFO:main:Cancel request data timee: 2024-09-18T09:30:00Z\
+2024-09-11T16:20:43.813375+00:00 app[web.1]: 10.1.28.69 - - [11/Sep/2024:16:20:43 +0000] "POST /booking-cancelled HTTP/1.1" 200 30 "-" "-"\
+2024-09-11T16:20:43.813375+00:00 app[web.1]: INFO:main:Adjusted request data timee: 2024-09-18T09:15:00Z\
+2024-09-11T16:20:43.813377+00:00 app[web.1]: INFO:main:Cancel request data: [\{'ResourceId': 1415117471, 'ResourceName': '6 Pax Meeting Room Right', 'ResourceAllocation': 6, 'ResourceHideInCalendar': False, 'ResourceNoReturnPolicy': None, 'ResourceNoReturnPolicyAllResources': None, 'ResourceNoReturnPolicyAllUsers': None, 'ResourceResourceTypeId': 1414873560, 'ResourceResourceTypeName': 'Fidiou Meeting Room 6 Pax', 'FloorPlanDeskId': 1415084640, 'FloorPlanDeskName': 'MR-6PAX 2', 'CoworkerId': 1415113428, 'CoworkerCoworkerType': 'Individual', 'CoworkerFullName': 'Eric BW no plan', 'CoworkerBillingName': 'Eric', 'CoworkerCompanyName': None, 'CoworkerTeamNames': None, 'ExtraServiceId': None, 'ExtraServiceName': None, 'FromTime': '2024-09-18T09:30:00Z', 'ToTime': '2024-09-18T11:30:00Z', 'Notes': None, 'InternalNotes': None, 'ChargeNow': False, 'InvoiceNow': False, 'InvoiceThisCoworker': False, 'DoNotUseBookingCredit': False, 'PurchaseOrder': None, 'DiscountCode': None, 'Tentative': False, 'Online': True, 'TeamsAtTheTimeOfBooking': None, 'TariffAtTheTimeOfBooking': 'Team Member', 'RepeatSeriesUniqueId': None, 'RepeatBooking': False, 'Repeats': 0, 'WhichBookingsToUpdate': 0, 'RepeatEvery': None, 'RepeatUntil': None, 'RepeatOnMondays': False, 'RepeatOnTuesdays': False, 'RepeatOnWednesdays': False, 'RepeatOnThursdays': False, 'RepeatOnFridays': False, 'RepeatOnSaturdays': False, 'RepeatOnSundays': False, 'OverridePrice': None, 'Invoiced': False, 'InvoiceDate': None, 'BookingNumber': 3316, 'CoworkerInvoiceId': None, 'CoworkerInvoiceNumber': None, 'CoworkerInvoicePaid': False, 'CoworkerInvoiceVoid': False, 'CoworkerInvoiceCreditNote': False, 'CoworkerExtraServiceIds': None, 'CoworkerExtraServicePrice': None, 'CoworkerExtraServiceCurrencyCode': None, 'CoworkerExtraServiceChargePeriod': None, 'CoworkerExtraServiceTotalUses': None, 'IncludeZoomInvite': False, 'CheckedInAt': None, 'CancelIfNotPaid': False, 'CancelIfNotCheckedIn': False, 'MaxOccupancy': None, 'LastMinutePriceAdjustment': None, 'DynamicPriceAdjustment': None, 'PriceFactorLastMinute': None, 'PriceFactorDemand': None, 'MinutesToStart': 9669, 'OverrideResourceLimits': False, 'DisableConfirmation': False, 'SkipGoogleCalendarUpdate': False, 'EstimatedCost': None, 'EstimatedCostWithProducts': None, 'EstimagedCost': None, 'EstimatedProductCost': None, 'ChargedExtraServices': None, 'BookingProducts': [], 'BookingVisitors': [], 'EstimatedExtraService': None, 'Invoice': None, 'AvailableCredit': 0.0, 'IsEvent': False, 'IsTour': False, 'DiscountAmount': None, 'Id': 1433656920, 'UpdatedOn': '2024-09-11T16:20:43.5562415Z', 'CreatedOn': '2024-09-11T16:19:43Z', 'UniqueId': '78d47f36-c141-4676-a98d-ce245cd9f6db', 'UpdatedBy': 'egoz@bluewin.ch', 'IsNew': False, 'SystemId': None, 'ToStringText': '6 Pax Meeting Room Right (#3316)', 'LocalizationDetails': None, 'CustomFields': None\}]\
+2024-09-11T16:20:43.813378+00:00 app[web.1]: INFO:main:Single Lock id to be deleted: None\
+2024-09-11T16:20:43.813378+00:00 app[web.1]: lock ids to cancel [None]\
+2024-09-11T16:20:43.813379+00:00 app[web.1]: id None\
+2024-09-11T16:20:44.277918+00:00 app[web.1]: INFO:main:token_data: \{'access_token': '002361523fe26d9f2d82dfcc4033f9eb', 'refresh_token': '0a8b6a2e1530a4b1396791be50a2ad3b', 'uid': 4963972, 'openid': 1961671458, 'scope': 'user,key,room', 'token_type': 'Bearer', 'expires_in': 3512065\}\
+2024-09-11T16:20:44.478335+00:00 app[web.1]: Process Process-6:\
+2024-09-11T16:20:44.481690+00:00 app[web.1]: Traceback (most recent call last):\
+2024-09-11T16:20:44.482025+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/site-packages/requests/models.py", line 971, in json\
+2024-09-11T16:20:44.482026+00:00 app[web.1]:     return complexjson.loads(self.text, **kwargs)\
+2024-09-11T16:20:44.482027+00:00 app[web.1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482029+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/json/__init__.py", line 346, in loads\
+2024-09-11T16:20:44.482029+00:00 app[web.1]:     return _default_decoder.decode(s)\
+2024-09-11T16:20:44.482029+00:00 app[web.1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482030+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/json/decoder.py", line 337, in decode\
+2024-09-11T16:20:44.482030+00:00 app[web.1]:     obj, end = self.raw_decode(s, idx=_w(s, 0).end())\
+2024-09-11T16:20:44.482030+00:00 app[web.1]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482032+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/json/decoder.py", line 355, in raw_decode\
+2024-09-11T16:20:44.482033+00:00 app[web.1]:     raise JSONDecodeError("Expecting value", s, err.value) from None\
+2024-09-11T16:20:44.482060+00:00 app[web.1]: json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\
+2024-09-11T16:20:44.482158+00:00 app[web.1]: \
+2024-09-11T16:20:44.482159+00:00 app[web.1]: During handling of the above exception, another exception occurred:\
+2024-09-11T16:20:44.482159+00:00 app[web.1]: \
+2024-09-11T16:20:44.482161+00:00 app[web.1]: Traceback (most recent call last):\
+2024-09-11T16:20:44.482351+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap\
+2024-09-11T16:20:44.482352+00:00 app[web.1]:     self.run()\
+2024-09-11T16:20:44.482352+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/multiprocessing/process.py", line 108, in run\
+2024-09-11T16:20:44.482353+00:00 app[web.1]:     self._target(*self._args, **self._kwargs)\
+2024-09-11T16:20:44.482353+00:00 app[web.1]:   File "/app/main.py", line 570, in handle_cancel_request\
+2024-09-11T16:20:44.482354+00:00 app[web.1]:     passcode = find_passcode(lock_id_to_cancel, from_time, to_time)\
+2024-09-11T16:20:44.482354+00:00 app[web.1]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482356+00:00 app[web.1]:   File "/app/main.py", line 610, in find_passcode\
+2024-09-11T16:20:44.482356+00:00 app[web.1]:     passcodes = list_passcodes(lock_id=lock_id, page_no=page_no)\
+2024-09-11T16:20:44.482356+00:00 app[web.1]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482357+00:00 app[web.1]:   File "/app/main.py", line 167, in list_passcodes\
+2024-09-11T16:20:44.482357+00:00 app[web.1]:     response_data = response.json()\
+2024-09-11T16:20:44.482357+00:00 app[web.1]:                     ^^^^^^^^^^^^^^^\
+2024-09-11T16:20:44.482359+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.12/site-packages/requests/models.py", line 975, in json\
+2024-09-11T16:20:44.482359+00:00 app[web.1]:     raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\
+2024-09-11T16:20:44.482376+00:00 app[web.1]: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\
+}
